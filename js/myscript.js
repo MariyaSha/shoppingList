@@ -14,6 +14,7 @@ do {var search = prompt("Search for a product in the store, type 'list' to see a
         print(stocked);
     } else if (search.toLowerCase() === 'list'){
         print(inStock.join(', '));
+        break;
     } else if (search.toLowerCase() === 'stop'){
         break;
     } else {
